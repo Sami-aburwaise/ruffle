@@ -102,6 +102,8 @@ fluent-templates = "0.13.1"
 lzma-rs = "0.3.0"
 tempfile = "3.21.0"
 tracing-wasm = "0.2.1"
+getrandom = { version = "0.3.3", features = ["js"] }
+
 
 [workspace.lints.rust]
 # Clippy nightly often adds new/buggy lints that we want to ignore.
